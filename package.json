@@ -1,0 +1,25 @@
+{
+  "name": "debug-eruda",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build && zmp deploy",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.11",
+    "zmp-sdk": "^2.11.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^1.5.3",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
